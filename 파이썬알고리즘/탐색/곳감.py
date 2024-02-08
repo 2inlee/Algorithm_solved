@@ -9,6 +9,7 @@ for command in commands:
     amount %= n  # 회전 횟수를 N으로 나눈 나머지만큼만 회전하면 됨
     if direction == 0:  # 왼쪽으로 회전
         matrix[row] = matrix[row][amount:] + matrix[row][:amount] # 파이썬의 특징을 이용해서 [1,2,3,4,5] -> [3,4,5] + [1,2] => [3,4,5,1,2]
+        # a[h-1].append(a[h-1].pop(0)  # 이렇게 하면 왼쪽으로 회전/이런식으로도 가능함
     else:  # 오른쪽으로 회전
         matrix[row] = matrix[row][-amount:] + matrix[row][:-amount]
 
