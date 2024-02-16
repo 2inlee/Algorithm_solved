@@ -1,3 +1,5 @@
+# 그리디 문제는 대부분 정렬을 하고 풀어야 한다.
+
 n = int(input())
 meeting = []
 for i in range(n):
