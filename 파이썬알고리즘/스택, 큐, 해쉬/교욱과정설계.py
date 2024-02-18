@@ -1,4 +1,3 @@
-# A B C D E F G -> CBA
 from collections import deque
 
 need = input()
