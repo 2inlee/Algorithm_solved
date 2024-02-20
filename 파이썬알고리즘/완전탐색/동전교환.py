@@ -1,5 +1,7 @@
 def DFS(L, sum):
   global min_count  # 최소 동전 개수를 전역 변수로 관리
+  if L > min_count:
+    return
   if sum > m or L >= min_count:  # 현재 합계가 목표 금액을 초과하거나 이미 찾은 최소 개수보다 많은 경우, 탐색 중지
     return
   if sum == m:  # 목표 금액에 도달한 경우
