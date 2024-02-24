@@ -3,6 +3,9 @@
 - - -
 
 ## 1. Baekjoon
+- Chrome Extention 문제로 모든 문제가 Repository에 업로드 되진 않습니다.
+- 자동으로 업로드 되는 문제만 올리고 있습니다.
+
 
 ## 2. Programmers
 
