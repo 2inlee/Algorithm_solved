@@ -18,7 +18,6 @@ if __name__ == "__main__":
   dx = [0, 0, -1, 1]
   dy = [1, -1, 0, 0]
 
-  # 사용자 입력 받기
   for i in range(n):
     maze[i] = list(map(int, input().split()))
 
