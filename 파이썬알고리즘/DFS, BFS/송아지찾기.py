@@ -1,16 +1,25 @@
 from collections import deque
 
-def bfs(s, e):
-    visited = set()  # 방문한 위치를 기록할 집합
-    queue = deque([(s, 0)])  # 큐 초기화, (현재 위치, 점프 횟수)
-    while queue:
-        current, jumps = queue.popleft()
-        if current == e:
-            return jumps
-        for next_step in (current + 1, current - 1, current + 5):  # 가능한 모든 이동
-            if next_step not in visited:
-                visited.add(next_step)
-                queue.append((next_step, jumps + 1))
+MAX = 100000
+ch = [0] * (MAX + 1)
+dis = [0] * (MAX + 1)
+n, m = map(int, input().split())
 
-s, e = map(int, input().split())
-print(bfs(s,e))
+ch[n] = 1
+dis[n] = 0
+dq = deque()
+dq.append(n)
+
+while dq:
+  now = dq.popleft()
+
+  if now == m:
+    break
+  for next in(now-1, now+1, now+5):
+    if 0 < next <= MAX:
+      if ch[next] == 0:
+        dq.append(next)
+        ch[next] = 1
+        dis[next] = dis[now] + 1
+        
+print(dis[m])
