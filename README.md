@@ -18,6 +18,7 @@ Chrome Extention 문제로 모든 문제가 Repository에 업로드 되진 않�
 
 - [Code Kit Notion Link](https://2inlee.notion.site/CODE-KIT-668319e277974df88fe281022c61e3a3?pvs=4)
 - [SQL Kit Notion Link](https://2inlee.notion.site/SQL-Kit-8620f69e05bb43c78521f50938b8f62a?pvs=4)
+- [JAVA Code Notion Link](https://2inlee.notion.site/JAVA-Code-24c1cfa71b8b4dbf8adfd9954a927aab?pvs=4)
 
 
 필요한 경우 페이지 상단에 해당 문제풀이에 관련된 개념을 정리해둡니다.
