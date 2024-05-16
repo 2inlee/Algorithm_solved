@@ -12,7 +12,6 @@ public class Main {
           result.append(Character.toUpperCase(x));
         }
     }
-    
     return result.toString();
   }
 
