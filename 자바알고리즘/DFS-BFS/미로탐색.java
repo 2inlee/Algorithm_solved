@@ -12,7 +12,7 @@ public class Main {
         else{
             for(int i=0; i<4; i++){
                 int nx = x + dx[i];
-                int ny = y + dy[i];
+                int ny = y + dy[i]; 
                 if(nx>=1 && nx<=7 && ny>=1 && ny<=7 && board[nx][ny] ==0){
                     board[nx][ny] = 1;
                     DFS(nx, ny);
